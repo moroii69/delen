@@ -20,9 +20,6 @@ export default function HomePage() {
             <Link href="/upload">
               <Button variant="ghost">Upload</Button>
             </Link>
-            <Link href="/time-table">
-              <Button variant="ghost">Time Table</Button>
-            </Link>
           </nav>
         </div>
       </header>
