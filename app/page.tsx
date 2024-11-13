@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { ChevronRight, BookOpen, Clock, Upload } from 'lucide-react'
+import { ChevronRight, BookOpen, Clock, Upload, ExternalLink} from 'lucide-react'
 import { Button } from "@/components/ui/button"
 
 export default function HomePage() {
@@ -26,14 +26,23 @@ export default function HomePage() {
 
       <main className="pt-20 pb-12">
   <section className="container mx-auto px-4 py-16 text-center">
-    <motion.div
-      className="mb-8 text-lg font-semibold text-blue-600"
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6 }}
-    >
-      Computer Science Engineering Department
-    </motion.div>
+
+<motion.div
+  className="mb-8 text-lg font-semibold text-blue-600"
+  initial={{ opacity: 0, y: -20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6 }}
+>
+  <u>
+  <a href="https://github.com/moroii69/delen" className="text-blue-600 hover:underline ml-2" target="_blank" rel="noopener noreferrer">
+    Source Code
+    <ExternalLink className="ml-1 inline" />
+  </a>
+  </u>
+</motion.div>
+
+
+
     <motion.h1 
       className="text-5xl font-bold mb-6"
       initial={{ opacity: 0, y: 20 }}
@@ -48,8 +57,7 @@ export default function HomePage() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 0.2 }}
     >
-      delen provides easy access to academic resources, helping you excel in your studies.
-    </motion.p>
+    A platform for the CSE department, providing easy access to academic resources and helping you excel in your studies.    </motion.p>
     <motion.div 
       className="flex justify-center space-x-8"
       initial={{ opacity: 0, y: 20 }}
