@@ -63,7 +63,7 @@ const resourceCategories = [
     items: [
       { name: "Python Programming Lab", href: "https://firebasestorage.googleapis.com/v0/b/archivos-cs30.appspot.com/o/Semester%2003%2FLab%20Manuals%2FPython%20Programming%20Lab%20Manual%20A.Y%20%2024-25%20(1).pdf?alt=media&token=1bfe6521-cc38-40cd-a42c-bf819e03a67b" },
       { name: "Data Structures Lab", href: "https://firebasestorage.googleapis.com/v0/b/archivos-cs30.appspot.com/o/Semester%2003%2FLab%20Manuals%2FDS%2024-25%20%20%20print.pdf?alt=media&token=df51bebd-74f4-4066-93ae-9e1fa83e0c71" },
-      { name: "Data Visualisation Lab", href: "https://firebasestorage.googleapis.com/v0/b/archivos-cs30.appspot.com/o/Semester%2003%2FLab%20Manuals%2FLab%20Manual%20-DV-part-1.pdf?alt=media&token=c8e2145c-0bc8-41b9-b983-1e2973a09124" }
+      { name: "Data Visualisation Lab", href: "https://firebasestorage.googleapis.com/v0/b/archivos-cs30.appspot.com/o/Semester%2003%2FLab%20Manuals%2FManual%20-DV.pdf?alt=media&token=c2bc9602-342f-468b-8569-bba676752436" }
     ]
   }
 ]
