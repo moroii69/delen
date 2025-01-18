@@ -21,7 +21,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "cors": "^2.8.5",
-    "express": "^4.21.1",
+    "express": "^4.21.2",
     "firebase": "^11.0.1",
     "framer-motion": "^11.11.10",
     "fs": "^0.0.1-security",
